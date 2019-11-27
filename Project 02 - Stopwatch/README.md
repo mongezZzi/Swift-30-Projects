@@ -5,3 +5,4 @@ Stopwatch is a Swift App that measures amount of time elapsed from a particular 
 ## Screenshots
 ![Stopwatch](./Stopwatch.gif)
 .
+.
