@@ -22,6 +22,7 @@ platform :ios do
         scheme: "Stopwatch",
         workspace: "Stopwatch.xcworkspace",
         destination: "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.2.2",
+        xcargs: "build-for-testing -derivedDataPath 'build'"
       )
   end
 
@@ -30,7 +31,7 @@ platform :ios do
         scheme: "Stopwatch",
         workspace: "Stopwatch.xcworkspace",
         xcpretty: true,
-        xcargs: "-only-testing:StopwatchUITests/StopwatchUITests/testReset -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.2.2' test-without-building"
+        xcargs: "-only-testing:StopwatchUITests/StopwatchUITests/testReset -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.2.2' test-without-building -derivedDataPath 'build'"
       )
    end
 end
