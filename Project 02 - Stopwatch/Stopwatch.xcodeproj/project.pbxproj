@@ -14,10 +14,21 @@
 		197BEE201C76E410005AD5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197BEE1F1C76E410005AD5E2 /* Assets.xcassets */; };
 		197BEE231C76E410005AD5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197BEE211C76E410005AD5E2 /* LaunchScreen.storyboard */; };
 		197BEE2D1C798B47005AD5E2 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197BEE2C1C798B47005AD5E2 /* Stopwatch.swift */; };
+		2826C8D2238DC7D000A7D38C /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2826C8D1238DC7D000A7D38C /* StopwatchUITests.swift */; };
+		2DF35214B9AA6F85850F416D /* Pods_Stopwatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE5EB123CA14E36984DF3E /* Pods_Stopwatch.framework */; };
+		4A574375AAF57969FEE361F0 /* Pods_StopwatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CDFC11898DB968986F87FB /* Pods_StopwatchTests.framework */; };
+		F05D5ED3FB808D603F222F05 /* Pods_Stopwatch_StopwatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A3A70B256DC1C0620F1799 /* Pods_Stopwatch_StopwatchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1931198F20D35E380079AC04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197BEE0D1C76E410005AD5E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197BEE141C76E410005AD5E2;
+			remoteInfo = Stopwatch;
+		};
+		2826C8D4238DC7D000A7D38C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 197BEE0D1C76E410005AD5E2 /* Project object */;
 			proxyType = 1;
@@ -38,6 +49,18 @@
 		197BEE221C76E410005AD5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197BEE241C76E410005AD5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		197BEE2C1C798B47005AD5E2 /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		2826C8CF238DC7D000A7D38C /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2826C8D1238DC7D000A7D38C /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
+		2826C8D3238DC7D000A7D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9804F86CC40F3C129141B0 /* Pods-Stopwatch-StopwatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stopwatch-StopwatchUITests.release.xcconfig"; path = "Target Support Files/Pods-Stopwatch-StopwatchUITests/Pods-Stopwatch-StopwatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CCE5EB123CA14E36984DF3E /* Pods_Stopwatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stopwatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D10370842183CAACC09E78 /* Pods-Stopwatch-StopwatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stopwatch-StopwatchUITests.debug.xcconfig"; path = "Target Support Files/Pods-Stopwatch-StopwatchUITests/Pods-Stopwatch-StopwatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68CDFC11898DB968986F87FB /* Pods_StopwatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StopwatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFB9A72761F7031E76E68D0 /* Pods-Stopwatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stopwatch.release.xcconfig"; path = "Target Support Files/Pods-Stopwatch/Pods-Stopwatch.release.xcconfig"; sourceTree = "<group>"; };
+		A15F121F84C40AE72B0BF0FD /* Pods-Stopwatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stopwatch.debug.xcconfig"; path = "Target Support Files/Pods-Stopwatch/Pods-Stopwatch.debug.xcconfig"; sourceTree = "<group>"; };
+		C9657A78BF6C29AC67175ACD /* Pods-StopwatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopwatchTests.debug.xcconfig"; path = "Target Support Files/Pods-StopwatchTests/Pods-StopwatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A3A70B256DC1C0620F1799 /* Pods_Stopwatch_StopwatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stopwatch_StopwatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D5FE798665EAE7583902C2 /* Pods-StopwatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopwatchTests.release.xcconfig"; path = "Target Support Files/Pods-StopwatchTests/Pods-StopwatchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A574375AAF57969FEE361F0 /* Pods_StopwatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF35214B9AA6F85850F416D /* Pods_Stopwatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2826C8CC238DC7D000A7D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05D5ED3FB808D603F222F05 /* Pods_Stopwatch_StopwatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +105,10 @@
 			children = (
 				197BEE171C76E410005AD5E2 /* Stopwatch */,
 				1931198B20D35E380079AC04 /* StopwatchTests */,
+				2826C8D0238DC7D000A7D38C /* StopwatchUITests */,
 				197BEE161C76E410005AD5E2 /* Products */,
+				23596907BCEC7239FD04D451 /* Pods */,
+				EAE86B87C770AD952D11550C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +117,7 @@
 			children = (
 				197BEE151C76E410005AD5E2 /* Stopwatch.app */,
 				1931198A20D35E380079AC04 /* StopwatchTests.xctest */,
+				2826C8CF238DC7D000A7D38C /* StopwatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +136,38 @@
 			path = Stopwatch;
 			sourceTree = "<group>";
 		};
+		23596907BCEC7239FD04D451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A15F121F84C40AE72B0BF0FD /* Pods-Stopwatch.debug.xcconfig */,
+				8DFB9A72761F7031E76E68D0 /* Pods-Stopwatch.release.xcconfig */,
+				52D10370842183CAACC09E78 /* Pods-Stopwatch-StopwatchUITests.debug.xcconfig */,
+				2C9804F86CC40F3C129141B0 /* Pods-Stopwatch-StopwatchUITests.release.xcconfig */,
+				C9657A78BF6C29AC67175ACD /* Pods-StopwatchTests.debug.xcconfig */,
+				F7D5FE798665EAE7583902C2 /* Pods-StopwatchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2826C8D0238DC7D000A7D38C /* StopwatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2826C8D1238DC7D000A7D38C /* StopwatchUITests.swift */,
+				2826C8D3238DC7D000A7D38C /* Info.plist */,
+			);
+			path = StopwatchUITests;
+			sourceTree = "<group>";
+		};
+		EAE86B87C770AD952D11550C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE5EB123CA14E36984DF3E /* Pods_Stopwatch.framework */,
+				E7A3A70B256DC1C0620F1799 /* Pods_Stopwatch_StopwatchUITests.framework */,
+				68CDFC11898DB968986F87FB /* Pods_StopwatchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1931199120D35E380079AC04 /* Build configuration list for PBXNativeTarget "StopwatchTests" */;
 			buildPhases = (
+				0DB70FD5D3C881790480365A /* [CP] Check Pods Manifest.lock */,
 				1931198620D35E380079AC04 /* Sources */,
 				1931198720D35E380079AC04 /* Frameworks */,
 				1931198820D35E380079AC04 /* Resources */,
@@ -124,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 197BEE271C76E410005AD5E2 /* Build configuration list for PBXNativeTarget "Stopwatch" */;
 			buildPhases = (
+				05097615F10822A50F61874E /* [CP] Check Pods Manifest.lock */,
 				197BEE111C76E410005AD5E2 /* Sources */,
 				197BEE121C76E410005AD5E2 /* Frameworks */,
 				197BEE131C76E410005AD5E2 /* Resources */,
@@ -137,13 +208,32 @@
 			productReference = 197BEE151C76E410005AD5E2 /* Stopwatch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2826C8CE238DC7D000A7D38C /* StopwatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2826C8D8238DC7D000A7D38C /* Build configuration list for PBXNativeTarget "StopwatchUITests" */;
+			buildPhases = (
+				057154FBA916361C9A745F27 /* [CP] Check Pods Manifest.lock */,
+				2826C8CB238DC7D000A7D38C /* Sources */,
+				2826C8CC238DC7D000A7D38C /* Frameworks */,
+				2826C8CD238DC7D000A7D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2826C8D5238DC7D000A7D38C /* PBXTargetDependency */,
+			);
+			name = StopwatchUITests;
+			productName = StopwatchUITests;
+			productReference = 2826C8CF238DC7D000A7D38C /* StopwatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		197BEE0D1C76E410005AD5E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = YiGu;
 				TargetAttributes = {
@@ -157,6 +247,11 @@
 					197BEE141C76E410005AD5E2 = {
 						CreatedOnToolsVersion = 7.2.1;
 						LastSwiftMigration = 1020;
+					};
+					2826C8CE238DC7D000A7D38C = {
+						CreatedOnToolsVersion = 11.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 197BEE141C76E410005AD5E2;
 					};
 				};
 			};
@@ -175,6 +270,7 @@
 			targets = (
 				197BEE141C76E410005AD5E2 /* Stopwatch */,
 				1931198920D35E380079AC04 /* StopwatchTests */,
+				2826C8CE238DC7D000A7D38C /* StopwatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +293,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2826C8CD238DC7D000A7D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05097615F10822A50F61874E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stopwatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		057154FBA916361C9A745F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stopwatch-StopwatchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DB70FD5D3C881790480365A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StopwatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1931198620D35E380079AC04 /* Sources */ = {
@@ -218,6 +390,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2826C8CB238DC7D000A7D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2826C8D2238DC7D000A7D38C /* StopwatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -225,6 +405,11 @@
 			isa = PBXTargetDependency;
 			target = 197BEE141C76E410005AD5E2 /* Stopwatch */;
 			targetProxy = 1931198F20D35E380079AC04 /* PBXContainerItemProxy */;
+		};
+		2826C8D5238DC7D000A7D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197BEE141C76E410005AD5E2 /* Stopwatch */;
+			targetProxy = 2826C8D4238DC7D000A7D38C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +435,7 @@
 /* Begin XCBuildConfiguration section */
 		1931199220D35E380079AC04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9657A78BF6C29AC67175ACD /* Pods-StopwatchTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -278,6 +464,7 @@
 		};
 		1931199320D35E380079AC04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D5FE798665EAE7583902C2 /* Pods-StopwatchTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -411,6 +598,7 @@
 		};
 		197BEE281C76E410005AD5E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15F121F84C40AE72B0BF0FD /* Pods-Stopwatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Stopwatch/Info.plist;
@@ -423,6 +611,7 @@
 		};
 		197BEE291C76E410005AD5E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFB9A72761F7031E76E68D0 /* Pods-Stopwatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Stopwatch/Info.plist;
@@ -430,6 +619,56 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yigu.Stopwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2826C8D6238DC7D000A7D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D10370842183CAACC09E78 /* Pods-Stopwatch-StopwatchUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = StopwatchUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = takealot.StopwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stopwatch;
+			};
+			name = Debug;
+		};
+		2826C8D7238DC7D000A7D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9804F86CC40F3C129141B0 /* Pods-Stopwatch-StopwatchUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = StopwatchUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = takealot.StopwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stopwatch;
 			};
 			name = Release;
 		};
@@ -459,6 +698,15 @@
 			buildConfigurations = (
 				197BEE281C76E410005AD5E2 /* Debug */,
 				197BEE291C76E410005AD5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2826C8D8238DC7D000A7D38C /* Build configuration list for PBXNativeTarget "StopwatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2826C8D6238DC7D000A7D38C /* Debug */,
+				2826C8D7238DC7D000A7D38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -64,7 +64,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-
+.DS_Store
 ### Objective-C Patch ###
 
 # End of https://www.gitignore.io/api/objective-c
+*.xcworkspace
