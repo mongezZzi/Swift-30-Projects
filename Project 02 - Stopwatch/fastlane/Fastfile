@@ -20,7 +20,7 @@ platform :ios do
   lane :build_for_testing2 do
     xcodebuild(
         scheme: "Stopwatch",
-        workspace: "Stopwatch.xcworkspace",
+        workspace: "../Stopwatch.xcworkspace",
         destination: "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.2.2",
       )
   end
@@ -28,7 +28,7 @@ platform :ios do
   lane :uitest do
        xcodebuild(
         scheme: "Stopwatch",
-        workspace: "Stopwatch.xcworkspace",
+        workspace: "../Stopwatch.xcworkspace",
         xcpretty: true,
         xcargs: "-only-testing:StopwatchUITests/StopwatchUITests/testReset -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.2.2' test-without-building"
       )
